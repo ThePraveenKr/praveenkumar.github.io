@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+#colorstrip {
+  height: 0px;
+  border-bottom: solid 60px red;
+}
+
+
 body {
   margin: 0;
   font-family: "Lucida Grande";
