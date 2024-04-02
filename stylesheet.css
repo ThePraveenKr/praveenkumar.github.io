@@ -127,6 +127,15 @@ header {
        
 }
 
+
+    .header-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: yellow;
+  text-align: left;
+}
+
 .header-right {
   float: right;
   margin-right: -60px;
