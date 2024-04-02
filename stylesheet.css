@@ -4,7 +4,7 @@
 
 #colorstrip {
   height: 0px;
-  border-bottom: solid 60px red;
+  border-bottom: solid 60px white;
 }
 
 
@@ -36,7 +36,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url();
   background-size: cover;
   color: white;
   text-align: center;
