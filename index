@@ -8,19 +8,15 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
   <link rel="stylesheet" type="text/css" href="responsive.css">  
   <link rel="shortcut icon" href="favicon.ico" >  
-  <!--     ┬ ┬┌─┐  ┌─┐┬─┐┌─┐        -->
-  <!--     │││├┤   ├─┤├┬┘├┤         -->
-  <!--     └┴┘└─┘  ┴ ┴┴└─└─┘        -->
-  <!--     ╔═╗╦═╗╔═╗╔═╗╔═╗╔╦╗╔═╗    -->
-  <!--     ╠═╝╠╦╝║ ║║ ╦╠═╣ ║ ║╣     -->
-  <!--     ╩  ╩╚═╚═╝╚═╝╩ ╩ ╩ ╚═╝    -->
+
+  
 </head>
 <body>
     <header>
      <div class="header-wrapper">
       <div class="container">
         <div class="header-left">
-          <b href="#">Praveen Kumar</b>
+          <b href="index">Praveen Kumar</b>
         </div>
         <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
