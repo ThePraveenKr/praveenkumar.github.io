@@ -108,7 +108,7 @@ header {
 
 .header-left {
   float: left;
-    margin-left: -5px;
+    margin-left: 0px;
 }
 
     .header-left b {
@@ -122,7 +122,7 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -5px;
+  margin-right: -45px;
 }
 
 .header-right a {
