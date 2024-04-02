@@ -98,7 +98,7 @@ a {
 header {
   height: 65px;
   width: 100%; 
-  background-color: #000080; /* for top strip color */
+  background-color: #000000; /* for top strip color */
    position :fixed; 
   top: 0;
   z-index: 10;
