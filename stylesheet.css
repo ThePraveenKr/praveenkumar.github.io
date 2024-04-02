@@ -135,8 +135,9 @@ header {
   padding: 0 25px;
   color: yellow;
   display: block;
-  float: left;
+  float: right;
   transition: all 0.5s;
+    text-align: right;
 }
 
 .header-right a:hover {
