@@ -28,11 +28,11 @@ a {
 }
 
 .container {
-  /* max-width: 1170px; */
+   max-width: 1170px; 
   padding: 0 15px;
   margin: 0 auto;
  color: blue;
-  width: 100%; /* added */
+/*  width: 100%;  */
 }
 
 .top-wrapper {
