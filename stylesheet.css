@@ -32,7 +32,7 @@ a {
   padding: 0 15px;
   margin: 0 auto;
  color: blue;
-  width: 100%;
+  width: 100%; /* added */
 }
 
 .top-wrapper {
@@ -98,7 +98,7 @@ header {
   height: 65px;
   width: 100%;
   background-color: blue; /* for top strip color */
-  position :fixed;
+  /* position :fixed; */
   top: 0;
   z-index: 10;
 }
