@@ -128,8 +128,8 @@ header {
 }
 
 .header-right {
-  float: right;
-  margin-right: -25px;
+  float: left;
+  margin-right: 5px;
 }
 
 .header-right a {
