@@ -130,10 +130,10 @@ header {
 
     .header-wrapper {
   padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: yellow;
-  text-align: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: cyan;
+  text-align: center;
 }
 
 .header-right {
