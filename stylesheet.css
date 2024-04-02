@@ -94,7 +94,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: pink;
+  background-color: blue; /* for top strip color */
   position :fixed;
   top: 0;
   z-index: 10;
@@ -107,6 +107,7 @@ header {
 
 .header-left {
   float: left;
+    margin-left: 5px;
 }
 
 .header-right {
