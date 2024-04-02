@@ -13,12 +13,13 @@ body {
 
 b {
     text-decoration: none;
-    color: white;
-   font-family:"Times New Roman", Times, serif;
+    color: yellow;
+   /*font-family:"Times New Roman", Times, serif;*/
 }
 
 a {
   text-decoration: none;
+      color: black;
 }
 
 .clear {
