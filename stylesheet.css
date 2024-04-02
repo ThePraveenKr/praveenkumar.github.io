@@ -96,7 +96,7 @@ a {
 
 header {
   height: 65px;
- /* width: 100%; */
+  width: 100%; 
   background-color: blue; /* for top strip color */
    position :fixed; 
   top: 0;
