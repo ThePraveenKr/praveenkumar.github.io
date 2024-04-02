@@ -13,6 +13,11 @@ body {
   font-family: "Lucida Grande";
 }
 
+b {
+    text-decoration: none;
+    color: white;
+}
+
 a {
   text-decoration: none;
 }
