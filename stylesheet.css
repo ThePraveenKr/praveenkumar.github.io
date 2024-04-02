@@ -128,8 +128,8 @@ header {
 }
 
 .header-right {
-  float: left;
-  margin-right: 5px;
+  float: right;
+  margin-right: -35px;
 }
 
 .header-right a {
@@ -139,7 +139,7 @@ header {
   display: block;
   float: right;
   transition: all 0.5s;
-    text-align: right;
+    text-align: left;
 }
 
 .header-right a:hover {
