@@ -7,6 +7,7 @@ body {
 }
 
 .header {
+  height: 90px;
   overflow: hidden;
   /* background-color: #f1f1f1; */
   background-color: black;
@@ -39,22 +40,31 @@ body {
   text-decoration: underline;
 }
 
+
 .header a.logo:hover {
+  background-color: black; /* background highlight when cursor on navigation menu */ 
+  color: white;
+  text-decoration: underline;
+  border-radius: 6px;
+}
+   
+
+/* if you want to highlight one header items */
+.header a.active {
+  background-color: black;
+  color: yellow;
+}
+
+.header a.active:hover {
   background-color: #ddd; /* background highlight when cursor on navigation menu */
   color: black;
   text-decoration: underline;
-  border-radius: 12px;
+  border-radius: 6px;
 }
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
 
 .header-right {
   float: right; /* text of right header align to right/left */
-  background-color: aqua;
+  background-color: black;
   margin-right: ;
   
 }
@@ -63,10 +73,11 @@ body {
 @media screen and (max-width: 1000px) {
   
   .header {
+    height: 135px;
     overflow: hidden;
     /* background-color: #f1f1f1; */
     background-color: black;
-    padding: 20px 10px;
+    padding: 20px 0px;
 
 
     
@@ -74,7 +85,7 @@ body {
       transform: translate3d(0, 0, 0);
       
       
-    
+    width:100%;
     
   }
 
@@ -107,11 +118,12 @@ body {
     padding-top: 19px;
     padding-bottom: 19px;
     text-align:left;
+    background-color: gra;
   }
 
   .header-right {
     float: left;
-    background-color: green;
+    background-color: #045e92;
     width: 100%;
     overflow: auto;
     /* do not wrap header element */ 
@@ -120,22 +132,36 @@ body {
     /*         */
 
     text-wrap: nowrap;
+    
 
   }
 
   .header a:hover {
     background-color: #ddd; /* background highlight when cursor on navigation menu */
-    color: red;
+    color: black;
     text-decoration: underline;
+  
   }
 
   .header a.logo:hover {
-    background-color: #ddd; /* background highlight when cursor on navigation menu */
-    color: black;
-    text-decoration: underline;
-    border-radius: 12px;
-     width:100%;
+    background-color: black; /* background highlight when cursor on navigation menu */ 
+  color: white;
+  text-decoration: underline;
+  border-radius: 6px;
   }
+
+  /* if you want to highlight one header items */
+.header a.active {
+  background-color: #045e92;
+  color: yellow;
+}
+
+.header a.active:hover {
+  background-color: #ddd; /* background highlight when cursor on navigation menu */
+  color: black;
+  text-decoration: underline;
+  border-radius: 6px;
+}
 
 }
 
