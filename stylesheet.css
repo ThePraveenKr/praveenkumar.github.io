@@ -114,13 +114,14 @@ header {
 .header-left {
   float: left;
     margin-left: 0px;
+    margin-right: 30px;
     /* width: 100%; */
 }
 
     .header-left a {
   line-height: 65px;
    padding: 0 25px; 
-  color: white;
+  color: yellow;
   display: block;
   float: left;
   transition: all 0.5s;
