@@ -67,36 +67,55 @@ body {
     /* background-color: #f1f1f1; */
     background-color: black;
     padding: 20px 10px;
+    
+    
+    
   }
- 
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-right: 20px;
+    margin-right: 0%;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-align:left;
+  }
 
   .header a {
     float: left;
     color: yellow;
     text-align: center;
     padding: 12px 20px;
-    text-decoration: none;
+    text-decoration:none;
     font-size: 18px; 
     line-height: 25px;
     border-radius: 6px;
-    width: none% /* 25% Four links of equal widths */
+    width: 100%; /* 25% Four links of equal widths */
+    text-wrap: nowrap;
+    
+   
+    
+    
+
     
     
   }
   
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-    padding-right: 20px;
-    margin-right: 10%;
-  }
+  
 
   .header-right {
     float: left;
     background-color: green;
     width: 100%;
-    overflow: auto;
+
+    /* do not wrap header element */ 
+    display: flex;
+    flex-direction:row;
+    /*         */
+    
+    
+    
 
   }
 
@@ -104,7 +123,17 @@ body {
     background-color: #ddd; /* background highlight when cursor on navigation menu */
     color: red;
     text-decoration: underline;
+
   }
+
+  .header a.logo:hover {
+    background-color: #ddd; /* background highlight when cursor on navigation menu */
+    color: black;
+    text-decoration: underline;
+    border-radius: 12px;
+     width:100%;
+  }
+
 }
 
 
