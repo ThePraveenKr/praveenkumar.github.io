@@ -73,9 +73,7 @@ body {
       z-index: 10000;
       transform: translate3d(0, 0, 0);
       
-      top: 40px;
-      width: 100%;
-      height: 200px;
+      
     
     
   }
@@ -95,7 +93,7 @@ body {
     font-size: 18px; 
     line-height: 25px;
     border-radius: 6px;
-    width: none% /* 25% Four links of equal widths */
+    width: 100% /* 25% Four links of equal widths */
     
     
   }
@@ -105,7 +103,10 @@ body {
     font-weight: bold;
     color: white;
     padding-right: 20px;
-    margin-right: 10%;
+    margin-right: 0%;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-align:left;
   }
 
   .header-right {
@@ -127,6 +128,15 @@ body {
     color: red;
     text-decoration: underline;
   }
+
+  .header a.logo:hover {
+    background-color: #ddd; /* background highlight when cursor on navigation menu */
+    color: black;
+    text-decoration: underline;
+    border-radius: 12px;
+     width:100%;
+  }
+
 }
 
 
