@@ -1,44 +1,204 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+
+
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Praveen Kumar</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
-  <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
-  <link rel="stylesheet" type="text/css" href="responsive.css">  
-  <link rel="shortcut icon" href="favicon.ico" >  
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="shortcut icon" href="favicon.ico">
+
+
 </head>
-  
+
 <body>
 
-   <header>
-     <div class="header-wrapper">
+  <div class="header">
+    <a href="home.html" class="logo">Praveen Kumar</a>
+    <div class="header-right">
+     <!-- <a class="active" href="about.html" class="current" >About</a> -->
+      <a href="about.html" class="current" >About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html"> Publications</a>
+      <a href="talknpresentations.html">Talk & Presentations </a>
+      <a href="teaching.html"> Teaching</a>
+      <a href="resume.html"> Resume</a>
+    </div>
+  </div>
+
+  <div class="homebutton">
+    <a href="home.html" >
+      <button>Home</button>
+    </a>
+  </div>
+
+
+  <div class="nav">
+    <a href="#about" class="btn">About</a>
+    <a href="#education" class="btn">Education</a>
+    <a href="#recognition" class="btn">Recognition</a>
+    <a href="#publicationsabout" class="btn">Publications</a>
+  </div>
+
+
+  
+
+  <div class="tophead-wrapper">
+    <div class="about" id="about">
+      <h1> About</h1>
+
+
+
+
       <div class="container">
-        <div class="header-left">
-          <a href="index">Praveen Kumar</a>
+        <div class="top-wrapper"></div>
+
+        <div class="aboutimage1">
+
+          <img src="pic/Photo_cern.jpeg" alt="oxford pic" style="width:400px; height:420px; object-fit: cover;" />
+
+          <p></p>
+
         </div>
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
-          <a href="about">About</a>
-          <a href="#">Research</a>
-          <a href="#">Publications</a>
-          <a href="#">Talk & Presentations</a>
-          <a href="#">Teaching </a>
-         <a href="#">Resume</a> 
+
+
+        Dr Praveen Kumar has completed PhD in particle physics, specializing in the particle identification and calibration of the Deep
+        Underground Neutrino Experiment (DUNE) far detector (FD). His research encompasses generating and simulating
+        cosmic-ray muon events, energy calibration using various particles, and detailed analysis of particle
+        reconstruction and identification within the DUNE FD. Additionally, he has made significant contributions to hardware and
+        instrumentation work, particularly in the realm of Liquid Argon Time Projection Chamber (LArTPC) R&D,
+        demonstrating a holistic approach to advancing particle physics.
+
+        Outside academia, Dr Praveen finds solace in music, literature, and sports, particularly football and cricket.
+        With a diverse skill set and a solid foundation in both analytical and hardware aspects of particle physics, he
+        stands poised to make substantial contributions to the field, shaping the future landscape of high-energy
+        physics
+        research.
+
+
+
+
+        <div class="aboutimage2">
+
+          <img src="pic/cern_collab.JPG" alt="cern_collab pic" style="width:100%; height:450px; object-fit: cover;" />
+
+          <p>Praveen with DUNE collaborators at CERN in Geneva, Switzerland</p>
+
         </div>
+
+
       </div>
-        </div>
-    </header>
 
-<h1>The ul element</h1>
 
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
+    </div>
 
+
+    <div class="education" id="education">
+      <h1>Education</h1>
+      <ul class="b">
+        <li>PhD is Physics from the University of Sheffield, United kingdom(UK)</li>
+        <li>Masters in Physics from Hindu College (University of Delhi)</li>
+        <li>Bachelor in Science in Physical Sciences from University of Delhi</li>
+      </ul>
+    </div>
+
+    <div class="recognition" id="recognition">
+      <h1>Recognition</h1>
+      <ul class="b">
+        <li>National Eligibility Test (NET) &#8212 The NET in Physics is a nationwide examination conducted by
+          CSIR-UGC in India for individuals seeking to work as assistant professor in Indian universities and
+          colleges.</li>
+
+        <li>Fellow of the Higher Education Academy (FHEA) &#8212 FHEA in the UK is a prestigious recognition for
+          educators who demonstrate excellence in teaching and learning. The FHEA status is conferred upon the
+          candidate in recognition of their attainment against the UK Professional Standards Framework for teaching
+          and learning support in higher education.</li>
+        
+      </ul>
+    </div>
+
+
+    <div class="publicationsabout" id="publicationsabout">
+      <h1>Publications</h1>
+      <ul class="b">
+        <li>A. C. Ezeribe, <b>P. Kumar</b> <em>et al.</em>, “A liquid argon test stand for pixel based TPC charge
+          readout studies: design, engineering and calibration”, Prepared for submission to JINST.</li>
+        <li>M. Naimuddin, <b>P. Kumar</b> <em>et al.</em>, “Characterization of 3 mm glass electrodes and development
+          of RPC detectors for INO-ICAL experiment”, Nuclear Instruments and Methods in Physics Research <b>A 774</b>,
+          74 (2015).</li>
+        <li>A. Kumar, <b>P. Kumar</b> <em>et al.</em>, “Study of RPC bakelite electrode and detector performance for
+          INO-ICAL”, Journal of Instrumentation <b>9</b>, C10042 (2014).</li>
+        <li>M. Naimuddin, <b>P. Kumar</b> <em>et al.</em>, “Characterisation of glass electrode and RPC detector for
+          INO-ICAL experiments”, Journal of Instrumentation <b>9</b>, C10039 (2014).</li>
+        <li>M. Hasbuddin, <b>P. Kumar</b> <em>et al.</em>, “RPC electrode characterization and performance studies
+          with different gas compositions”, Springer Proc. Phys. <b>174</b>, 293 (2016).</li>
+        <li>A. Gaur, <b>P. Kumar</b> <em>et al.</em>, “Characterization of different electrode materials and resistive
+          plate chamber detector performance studies”, Proceedings of the DAE Symposium on Nuclear Physics, Banaras
+          Hindu University (B.H.U), Varanasi, India <b>59</b>, 960 (2014).</li>
+        <li>A. Abed, <b>P. Kumar</b> <em>et al.</em> (DUNE Collaboration), “Doping liquid argon with xenon in
+          ProtoDUNE Single-Phase: effects on scintillation light”, arXiv:2402.01568v2 (2024).</li>
+        <li>A. Abed, <b>P. Kumar</b> <em>et al.</em> (DUNE Collaboration), “Reconstruction of interactions in the
+          ProtoDUNE-SP detector with Pandora”, Eur. Phys. J. C <b>83</b>, 618 (2023).</li>
+        <li>A. Abed, <b>P. Kumar</b> <em>et al.</em> (DUNE Collaboration), “Highly-parallelized simulation of a
+          pixelated LArTPC on a GPU”, Journal of Instrumentation <b>18</b>, P04034 (2023).</li>
+        <li>A. Abed, <b>P. Kumar</b> <em>et al.</em> (DUNE Collaboration), “Identification and reconstruction of
+          low-energy electrons in the ProtoDUNE-SP detector”, Phys. Rev. D <b>107</b>, 092012 (2023).</li>
+        <li>A. Abed, <b>P. Kumar</b> <em>et al.</em> (DUNE Collaboration), “Separation of track- and shower-like
+          energy deposits in ProtoDUNE-SP using a convolutional neural network”, Eur. Phys. J. C <b>82</b>, 903
+          (2022).</li>
+        <li>A. Abed, <b>P. Kumar</b> <em>et al.</em> (DUNE Collaboration), “Design, construction and operation of the
+          ProtoDUNE-SP Liquid Argon TPC”, Journal of Instrumentation <b>17</b>, P01005 (2022).</li>
+        <li>A. Abed, <b>P. Kumar</b> <em>et al.</em> (DUNE Collaboration), “Scintillation light detection in the 6-m
+          drift-length ProtoDUNE Dual Phase liquid argon TPC”, Eur. Phys. J. C <b>82</b>, 618 (2022).</li>
+        <li>D. Caratelli, <b>P. Kumar</b> <em>et al.</em>, “Low-energy physics in neutrino LArTPCs”, arXiv:2203.00740
+          (2022).</li>
+        <li>A. Abed, <b>P. Kumar</b> <em>et al.</em> (DUNE Collaboration), “Deep Underground Neutrino Experiment
+          (DUNE) near detector conceptual design report”, Instruments <b>5</b>, 31 (2021).</li>
+
+
+
+
+      </ul>
+    </div>
+
+    <div class="last" id="last">
+      <h1></h1>
+      <ul class="b">
+        
+      </ul>
+    </div>
+    <!--
+    <div class="btn-wrapper">
+      <a href="#" class="btn signup">Sign up with Email</a>
+      <p>or</p>
+      <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
+      <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
+
+    </div>
+
+  -->
+
+    
+
+    </div>
+    <footer>
+      <div class="container">
+        <ul class="footerLogos" style="display: flex; align-items: center; justify-content: center;">
+          <li><a href= "http://linkedin.com/in/praveen-kumar-52859a2ba" target="_blank" ><img src="pic/linkedin1.jpeg" ></a></li>
+          
+          <li><a href= "https://inspirehep.net/authors/1763525" target="_blank" ><img src="pic/inspire1.png"></a></li>
+
+          <li><a href= "https://orcid.org/0000-0002-0429-2528" target="_blank" ><img src="pic/orcid1.png"></a></li>
+        </ul>
+        <p>Copyright &#169 2024 Praveen Kumar</p>
+      </div>
+    </footer>
+  
 </body>
+
 </html>
