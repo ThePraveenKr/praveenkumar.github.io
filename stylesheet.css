@@ -911,7 +911,25 @@ li {
 }
 
 
+.poster {
+  
+  
+  margin-top:0px;
+ margin-bottom:0px;
+ padding-bottom:0px;
+  padding-top:60px; 
+  padding-left:30px;
+  padding-right:0%;
+  text-align: justify;
+  background-color: white;
+  font-size:100%;
+  
+  
 
+
+
+
+}
 
 
 
