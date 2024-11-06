@@ -890,18 +890,19 @@ li {
   
 }
 
-.conferencetalks {
+.conference {
   
   
-  margin-top:0px;
+  margin-top:px;
  margin-bottom:0px;
  padding-bottom:0px;
   padding-top:60px; 
-  padding-left:30px;
+  padding-left:0px;
   padding-right:0%;
   text-align: justify;
   background-color: white;
-  font-size:100%;
+  font-size: ;
+  
   
   
 
@@ -914,15 +915,15 @@ li {
 .poster {
   
   
-  margin-top:0px;
+  margin-top:px;
  margin-bottom:0px;
  padding-bottom:0px;
   padding-top:60px; 
-  padding-left:30px;
+  padding-left:0px;
   padding-right:0%;
   text-align: justify;
   background-color: white;
-  font-size:100%;
+  font-size: ;
   
   
 
